@@ -17,10 +17,10 @@ export default function Summary() {
       </section>
       <aside className="card grid-4">
         <h3>Contact</h3>
-        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-        <p>Location: Remote / Your City</p>
-        <p>Links: <a href="#" target="_blank" rel="noreferrer">GitHub</a> · <a href="#" target="_blank" rel="noreferrer">LinkedIn</a> · <a href="#" target="_blank" rel="noreferrer">X</a></p>
-        <div className="badge"><span className="dot" /> Open to opportunities</div>
+        <p>Email: <a href="mailto:you@example.com">trevorlauyl@gmail.com</a></p>
+        <p>Location: Hong Kong / Toronto, ON</p>
+        {/* <p>Links: <a href="https://github.com/lok2987" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/trevlau/" target="_blank" rel="noreferrer">LinkedIn</a> · <a href="#" target="_blank" rel="noreferrer">X</a></p> */}
+        <p>Links: <a href="https://github.com/lok2987" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/trevlau/" target="_blank" rel="noreferrer">LinkedIn</a></p>
       </aside>
       <section className="card grid-12">
         <h3>Highlights</h3>

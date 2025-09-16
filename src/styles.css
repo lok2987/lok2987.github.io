@@ -7,7 +7,7 @@
   --accent: #79ffe1;
   --accent-2: #64d1ff;
   --line: #202a3c;
-  --success: #36d399;
+  --available: #36d399;
   --warning: #fbbf24;
   --danger: #fb7185;
   --shadow: 0 10px 30px rgba(0,0,0,0.35);
@@ -104,9 +104,14 @@ a:hover { text-decoration: underline; }
   align-items: center;
   gap: 8px;
 }
-.dot {
+.dot.available {
   width: 8px; height: 8px; border-radius: 999px;
-  background: var(--success);
+  background: var(--available);
+  display: inline-block;
+}
+.dot.warning {
+  width: 8px; height: 8px; border-radius: 999px;
+  background: var(--warning);
   display: inline-block;
 }
 

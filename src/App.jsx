@@ -23,15 +23,15 @@ export default function App() {
       <header className="hero" role="banner">
         <div className="avatar">DEV</div>
         <div className="hero-meta">
-          <h1>Your Name</h1>
-          <p>Backend • Blockchain • Distributed Systems</p>
+          <h1>Lau Yi Lok Trevor</h1>
+          <p>Blockchain • Distributed Systems • Backend Development</p>
           <p style={{marginTop: 6}}>
-            <span className="badge"><span className="dot" /> Shipping • Testing • Observability</span>
+            <span className="badge"><span className="dot warning" /> Currently Unavailable</span>
           </p>
         </div>
         <div className="hero-cta">
           <a className="btn" href="#" download>Download Résumé</a>
-          <a className="btn secondary" href="mailto:you@example.com">Email Me</a>
+          <a className="btn secondary" href="mailto:trevorlauyl@gmail.com">Email Me</a>
         </div>
       </header>
 
@@ -48,7 +48,7 @@ export default function App() {
       </main>
 
       <footer>
-        © {new Date().getFullYear()} Your Name — Built with React + Vite. Dark theme, no CSS frameworks.
+        © {new Date().getFullYear()} TrevLau — React + Vite + CSS
       </footer>
     </div>
   )
